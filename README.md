@@ -9,6 +9,7 @@ This project provides a pure-Python implementation of the DES block cipher and b
 ## Running the CLI
 
 ``` 
+```
 python -m tdes.cli encrypt <input_file> <output_file> --key <hex_key> --iv <hex_iv>
 python -m tdes.cli decrypt <input_file> <output_file> --key <hex_key> --iv <hex_iv>
 ```
